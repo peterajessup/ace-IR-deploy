@@ -13,7 +13,7 @@ spec:
       value: '7843'
   license:
     accept: true
-    license: L-KZVS-2G3FW4
+    license: L-XRNH-47FJAW
     use: CloudPakForIntegrationNonProduction
   telemetry:
     tracing:
