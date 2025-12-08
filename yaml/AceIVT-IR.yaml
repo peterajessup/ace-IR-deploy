@@ -22,14 +22,19 @@ spec:
   template:
     spec:
       containers:
-        - resources:
+        - name: runtime
+          resources:
             limits:
             cpu: '0.5'
             memory: 1Gi
           requests:
             cpu: '0.5'
             memory: 1Gi
-          name: runtime
+          env:
+            - name: MQSI_OVERRIDE_HOSTNAME
+              value: 'ir1-ir.ace.svc'
+            - name: MQSI_OVERRIDE_HTTPS_PORT
+              value: '7843'
   logFormat: basic
   barURL: ['https://ace-db-dash.ace:3443/v1/directories/Backend?ab42fc47-dfe7-4861-a71f-7eaeac1b97de']
   configurations: ["dbparms", "key.jks", "httpsconf"]
