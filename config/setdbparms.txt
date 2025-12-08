@@ -1,3 +1,2 @@
-kafka::myKafkaId es-admin EGIC0sJj1cNnVhbXLHGsr7VchFJBpawi
-truststore::truststorePass anyname password
+
 keystore::keystorePass anyname password
