@@ -13,12 +13,12 @@ spec:
       value: '7843'
   license:
     accept: true
-    license: L-XRNH-47FJAW
+    license: L-KPRV-AUG9NC
     use: CloudPakForIntegrationNonProduction
   telemetry:
     tracing:
       openTelemetry:
-        enabled: true
+        enabled: false
   template:
     spec:
       containers:
@@ -33,5 +33,5 @@ spec:
   logFormat: basic
   barURL: ['https://ace-db-dash.ace:3443/v1/directories/Backend?ab42fc47-dfe7-4861-a71f-7eaeac1b97de']
   configurations: ["dbparms", "key.jks", "httpsconf"]
-  version: '12.0'
+  version: '13.0'
   replicas: 1
