@@ -31,7 +31,7 @@ spec:
             memory: 1Gi
           name: runtime
   logFormat: basic
-  barURL: ['https://db-dash-dash:3443/v1/directories/ivt2?99b0009e-fecd-4489-94c7-56fa03793832']
+  barURL: ['https://ace-db-dash.ace:3443/v1/directories/Backend?ab42fc47-dfe7-4861-a71f-7eaeac1b97de']
   configurations: ["dbparms", "key.jks", "httpsconf"]
   version: '12.0'
   replicas: 1
